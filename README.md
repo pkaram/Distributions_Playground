@@ -1,2 +1,7 @@
+---
+output:
+  html_document: default
+---
 # R_plot_distributions
-R code to plot distributions 
+
+Density graphs of various distributions
