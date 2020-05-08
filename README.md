@@ -4,20 +4,20 @@ Shiny App to play around with various distributions. Give sample size and parame
 
 ![](screenshot.png)
 
-### To build image execute the following
+To build image make sure that you are in the project directory and execute the following:
 
 ```
- docker build -t distributions_playground .
+ docker build -t dummy_image_name .
 ```
 
-### To run image after a pull request execute the following
+After image is built to run execute the following:
 
 ```
-docker run -p 80:80 distributions_playground
+docker run -p 80:80 dummy_image_name
 ```
 
 
-Access app on: 
+Access the app on: 
 
 ```
 http://localhost 
